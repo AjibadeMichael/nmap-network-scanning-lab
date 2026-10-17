@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Wed Oct  7 08:51:42 2026 as: /usr/lib/nmap/nmap -p 3306 --script mysql-info -oN /home/kali/nmap-network-scanning-lab/scans/mysql-info.txt 192.168.249.131
+Nmap scan report for 192.168.249.131
+Host is up (0.00042s latency).
+
+PORT     STATE SERVICE
+3306/tcp open  mysql
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.46-0ubuntu0.22.04.3
+|   Thread ID: 11
+|   Capabilities flags: 65535
+|   Some Capabilities: Speaks41ProtocolOld, FoundRows, DontAllowDatabaseTableColumn, IgnoreSpaceBeforeParenthesis, ODBCClient, LongColumnFlag, Support41Auth, SupportsTransactions, IgnoreSigpipes, LongPassword, SupportsCompression, InteractiveClient, Speaks41ProtocolNew, SupportsLoadDataLocal, SwitchToSSLAfterHandshake, ConnectWithDatabase, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: [REDACTED - transient session nonce]
+|_  Auth Plugin Name: caching_sha2_password
+MAC Address: 00:0C:29:62:FD:5E (VMware)
+
+# Nmap done at Wed Oct  7 08:52:05 2026 -- 1 IP address (1 host up) scanned in 23.23 seconds
