@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Wed Oct  7 08:44:05 2026 as: /usr/lib/nmap/nmap -O -oN /home/kali/nmap-network-scanning-lab/scans/os-detection.txt 192.168.249.131
+Nmap scan report for 192.168.249.131
+Host is up (0.00099s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3306/tcp open  mysql
+MAC Address: 00:0C:29:62:FD:5E (VMware)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct  7 08:44:19 2026 -- 1 IP address (1 host up) scanned in 14.64 seconds
