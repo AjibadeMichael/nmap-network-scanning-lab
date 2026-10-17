@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Wed Oct  7 08:41:36 2026 as: /usr/lib/nmap/nmap -sV -p 22,3306 -oN /home/kali/nmap-network-scanning-lab/scans/service-version-detection.txt 192.168.249.131
+Nmap scan report for 192.168.249.131
+Host is up (0.00076s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.16 (Ubuntu Linux; protocol 2.0)
+3306/tcp open  mysql   MySQL 8.0.46-0ubuntu0.22.04.3
+MAC Address: 00:0C:29:62:FD:5E (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct  7 08:42:00 2026 -- 1 IP address (1 host up) scanned in 23.39 seconds
