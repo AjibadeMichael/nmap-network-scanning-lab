@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Wed Oct  7 08:35:15 2026 as: /usr/lib/nmap/nmap -p- -oN /home/kali/nmap-network-scanning-lab/scans/full-tcp-scan.txt 192.168.249.131
+Nmap scan report for 192.168.249.131
+Host is up (0.00098s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3306/tcp open  mysql
+MAC Address: 00:0C:29:62:FD:5E (VMware)
+
+# Nmap done at Wed Oct  7 08:35:29 2026 -- 1 IP address (1 host up) scanned in 14.74 seconds
