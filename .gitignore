@@ -1,0 +1,15 @@
+# Never commit private evidence, credentials, runtime artefacts or local data
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pcap
+*.pcapng
+*raw-original*
+*unredacted*
+private/
+originals/
+__pycache__/
+.DS_Store
+Thumbs.db
